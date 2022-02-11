@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "nuxt3": "latest",
+    "postcss": "^8.3.11",
+    "tailwindcss": "3.0.19"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.1.5",
+    "@types/lodash": "^4.14.178",
+    "@vueuse/core": "^7.6.1",
+    "lodash": "4.17.21",
+    "nanoid": "^3.2.0",
+    "pinia": "^2.0.4",
+    "vuedraggable": "^4.1.0"
+  }
+}
